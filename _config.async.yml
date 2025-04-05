@@ -1,0 +1,110 @@
+theme:
+  switch: true
+  default: auto # style-light style-dark
+
+favicon:
+  logo: img/failure.svg
+  icon16: img/failure.svg
+  icon32: img/failure.svg
+  visibilitychange: true
+  hidden: img/failure.svg
+  showText: (/≧▽≦/)咦！又好了！
+  hideText: (●—●)喔哟，崩溃啦！
+
+user:
+  name: chengmo
+  first_name: mo
+  last_name: cheng
+  email: chengmo23-@ooutlook.com
+  avatar: img/avatar.jpg
+  describe: this is chengmo's blog.
+
+top_bars:
+  - title: 首页
+    url: /
+  - title: 归档
+    url: /archives/
+  - title: 分类
+    url: /categories/
+    noswup: true
+  - title: 标签
+    url: /tags/
+    noswup: true
+  - title: 关于
+    url: /about/
+    noswup: true
+
+search:
+  enable: true
+  type: local
+  preload: true
+  trigger: auto
+
+# 分类卡片
+categorie_card:
+  enable: true
+  len: 1
+  list: ["代码片段"]
+
+banner:
+  index:
+    type: img
+    bgurl: img/banner.png
+    bannerTitle: 树深时见鹿，<br>溪午不闻钟。
+    bannerText: Hi my new friend!
+
+sidebar:
+  social:
+    - name: github
+      icon: fab fa-github
+      url: https://github.com/chengmo23
+  typedTextPrefix: I'm
+  typedText: ["chengmo's blog"]
+  info:
+    - key: 居住地
+      val: 银河系
+    - key: 码龄
+      val: 两年半
+
+# 文章目录
+toc:
+  enable: true
+  list_number: true
+  post_title: false
+  max_depth: 3
+  min_depth: 1
+
+archive:
+  type: more
+
+# 版权信息
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: true
+  clipboard: true
+
+# 评论
+# comment:
+#   twikoo:
+#     enable: true
+#     visitor: true
+#     envId: https://grainrain-twikoo.netlify.app/.netlify/functions/twikoo
+
+footer:
+  powered:
+    enable: false
+  beian:
+    enable: false
+    icp:
+  copyright_year: 2024
+  live_time:
+    enable: false
+    prefix: footer.tips
+    start_time: 03/01/2024 17:00:00
+  custom_text:
+
+assets:
+  third_party_provider: https://npm.elemecdn.com
+# layout:
+#   page_loading: _partial/preloader/page-preloader
