@@ -74,8 +74,10 @@ toc:
   max_depth: 3
   min_depth: 1
 
-archive:
-  type: more
+# 固定按钮快
+rightside:
+  readmode: true
+  aside: true
 
 # 版权信息
 creative_commons:
